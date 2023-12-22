@@ -27,7 +27,7 @@ disable_box = gr.Textbox.update(value='OpenAI API key is Set', interactive=False
 # OpenAI API 키 설정 함수
 def set_apikey(api_key):
     if not api_key:
-        api_key = "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"
+        api_key = "YOUR_API_KEY"
 
     app.OPENAI_API_KEY = api_key
 
